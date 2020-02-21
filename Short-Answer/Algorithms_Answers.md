@@ -28,6 +28,8 @@ we then pick a floor between for EXAMPLE 14 and 27 and
 then we use this simple calculation
 n + (n-1) + (-n2) + (-n3) etc
 
+Complexity: O(n^2)
+
 
 
 

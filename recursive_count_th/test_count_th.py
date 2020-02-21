@@ -1,6 +1,6 @@
 import unittest
 import random
-from count_th import *
+from recursive_count_th.count_th import *
 
 class Test(unittest.TestCase):
 
