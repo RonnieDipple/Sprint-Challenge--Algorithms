@@ -143,6 +143,7 @@ class SortingRobot:
         """
         return self._light == "ON"
 
+#Not very elegant, basically function calls and while loops
     def sort(self):
         """
         Sort the robot's list.

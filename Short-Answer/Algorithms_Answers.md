@@ -23,9 +23,8 @@ we need to divide the building into sections so that it takes
 the same number of throws to find the optimal height
 recursion might be a good idea here:
 
-we start on the 14 floor then move up to 27 etc until an egg breaks
-we then pick a floor between for EXAMPLE 14 and 27 and 
-then we use this simple calculation
+we start on the 14 floor then move up every 14 floors minus 1 until an egg breaks
+then we repeat the process minus 1
 n + (n-1) + (-n2) + (-n3) etc
 
 Complexity: O(n^2)
